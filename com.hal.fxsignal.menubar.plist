@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.hal.fxsignal.menubar</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Applications/FX Signal.app/Contents/MacOS/FXSignal</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/hal/Library/Application Support/FXSignal/fxsignal.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/hal/Library/Application Support/FXSignal/fxsignal.err.log</string>
+</dict>
+</plist>
